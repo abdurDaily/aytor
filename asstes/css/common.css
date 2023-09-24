@@ -1,0 +1,17 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,700;1,400;1,600&family=Roboto:wght@400;700&display=swap');
+
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+
+/* ROOT */
+:root{
+    --primary-color:#FF6F61;
+    --secondary-color: #1D1D1D;
+    --primary-font:font-family: 'Roboto', sans-serif;
+
+}
