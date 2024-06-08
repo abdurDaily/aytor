@@ -13,13 +13,16 @@ searchBox.addEventListener('click',function(e){
 searchBtn.addEventListener('click', function(e){
     e.preventDefault();
     searchBox.classList.add('active_search');
-    if(!(e.target.classList.contains('active_search'))){
+    if(searchBox.classList.contains('active_search')){
         inputTest.classList.add('active_input');
-    }
-});
-
-crossBtn.addEventListener('click', function(e){
-    e.preventDefault();
-    searchBox.classList.remove('active_search');
+        }else{
+        inputTest.classList.remove('active_input');
+        }
+        });
+        
+        crossBtn.addEventListener('click', function(e){
+            e.preventDefault();
+            searchBox.classList.remove('active_search');
+            inputTest.classList.remove('active_input');
     
 });
